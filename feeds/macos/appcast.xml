@@ -6,6 +6,34 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.59</title>
+            <pubDate>Fri, 24 Jul 2026 23:57:15 +0200</pubDate>
+            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.59</link>
+            <sparkle:version>1.1.59</sparkle:version>
+            <sparkle:shortVersionString>1.1.59</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.59
+
+### macOS
+
+- The dictation history storage card now opens saved dictations and audio files directly in Finder.
+- The storage folder is created automatically when it does not exist yet.
+
+### Windows
+
+- The dictation history storage card now opens saved dictations and audio files directly in File Explorer.
+- The storage folder is created automatically when it does not exist yet.
+
+### SHA256
+
+- `DesktopRecorder-macOS.dmg`: `3d89aee65da7560dbbb43d11264d73ce8c9671c0b1de4963849fc4b0b1ddae61`
+- `DesktopRecorder.exe`: `4b3c5d2ad9bb4b83067bed9761b3978df619563f7fafc990453521fa81bf15c0`
+- `DesktopRecorder-Setup.exe`: `4cd2d6857eee5089b71e111a780f2e0360de41242fc1f087c7e6699ec365c5bd`
+]]></description>
+            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.59/DesktopRecorder-macOS.dmg" length="28439432" type="application/octet-stream" sparkle:edSignature="bdleNDFALqj2krC94gEh4HGys1mUQuxhAmfT85qkZb4v7cPA+g5/XX3qGuFhfQ67NNmpGXgKK4fb0+EagAyeAQ=="/>
+        </item>
+        <item>
             <title>1.1.58</title>
             <pubDate>Fri, 24 Jul 2026 23:31:07 +0200</pubDate>
             <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.58</link>
@@ -61,34 +89,6 @@ SHA256:
 - `DesktopRecorder-Setup.exe`: `7610333bf195f93556460e333ea1cd4bb98d317393dee4981700be0c01ed1899`
 ]]></description>
             <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.57/DesktopRecorder-macOS.dmg" length="28444963" type="application/octet-stream" sparkle:edSignature="hdgae8h3Y3EiedEH7iq+Xp6n9xWQiokDcKUhdJ8biS9gdLbMnzmHrci1U5/Cwq+hbMor5qQmsIqM8zaBmveADg=="/>
-        </item>
-        <item>
-            <title>1.1.56</title>
-            <pubDate>Fri, 24 Jul 2026 17:40:27 +0200</pubDate>
-            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.56</link>
-            <sparkle:version>1.1.56</sparkle:version>
-            <sparkle:shortVersionString>1.1.56</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## macOS
-
-- Every action in the recorder widget now has theme-aware hover, pressed, and disabled feedback.
-- Round controls lift subtly on hover and compress on press without shifting the widget layout.
-- The primary record, pause, and stop controls use the same tactile visual language.
-
-## Windows
-
-- The recorder widget and mini player now have smooth hover lift and pressed compression.
-- Dedicated pressed colors, keyboard focus rings, and subdued disabled states improve clarity.
-- Fixed sizing and centered glyphs remain stable in dark and light themes.
-
-SHA256:
-
-- `DesktopRecorder.exe`: `654a09dbe5f14ddd846bbd8fc99b62d2e2b5beac2ab4faff1d9cdab5e0de8f1f`
-- `DesktopRecorder-Setup.exe`: `3f78c065da502bfad29205283bff65cb10200333e80338dc2e9408ab4eb021e1`
-- `DesktopRecorder-macOS.dmg`: `87f9599a723db94f03e02c77eeb978bb03d3cc1e7ae3d2b23d7773667645abf9`
-]]></description>
-            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.56/DesktopRecorder-macOS.dmg" length="28418384" type="application/octet-stream" sparkle:edSignature="+Tql3TbWSOpCLxms7ap4t+3q5gOkV8YwIFf+3m40A8lfb6BFpcTvCfQEcdzTwEqL3q3sMwSfUgwPoX/eEMSRCQ=="/>
         </item>
     </channel>
 </rss>
