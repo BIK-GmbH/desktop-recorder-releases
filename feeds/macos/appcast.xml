@@ -6,6 +6,34 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.58</title>
+            <pubDate>Fri, 24 Jul 2026 23:31:07 +0200</pubDate>
+            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.58</link>
+            <sparkle:version>1.1.58</sparkle:version>
+            <sparkle:shortVersionString>1.1.58</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.58
+
+### macOS
+
+- Dictation history rows now remain visually still when the pointer moves over their text.
+- Hover and pressed feedback is limited to the individual actions: copy, playback, pin, delete, and details.
+
+### Windows
+
+- Dictation history rows no longer highlight as a whole.
+- The individual action buttons retain their direct hover and pressed feedback.
+
+### SHA256
+
+- `DesktopRecorder-macOS.dmg`: `3e249eb78b28c2569e9ffe5448855d3c7d6f975099e67b28693114a441c1e6ad`
+- `DesktopRecorder.exe`: `fd47b494fa6c259f551dad24e168e905a34ad8c00c88a3066176092c9369e40a`
+- `DesktopRecorder-Setup.exe`: `19c9d43aa09c6c97cd7d900beee565c08d0ba605fcc50630e0b47f2cdcf092d3`
+]]></description>
+            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.58/DesktopRecorder-macOS.dmg" length="28435102" type="application/octet-stream" sparkle:edSignature="J32BLm7PhbEWWzW8c6nTapvWLdRPRq2XQPjXQsP5po3D7bfyXRXXS0HyczV3PUXQsUFCDdABt9eyIe6M/QieCA=="/>
+        </item>
+        <item>
             <title>1.1.57</title>
             <pubDate>Fri, 24 Jul 2026 18:38:37 +0200</pubDate>
             <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.57</link>
@@ -61,35 +89,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `87f9599a723db94f03e02c77eeb978bb03d3cc1e7ae3d2b23d7773667645abf9`
 ]]></description>
             <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.56/DesktopRecorder-macOS.dmg" length="28418384" type="application/octet-stream" sparkle:edSignature="+Tql3TbWSOpCLxms7ap4t+3q5gOkV8YwIFf+3m40A8lfb6BFpcTvCfQEcdzTwEqL3q3sMwSfUgwPoX/eEMSRCQ=="/>
-        </item>
-        <item>
-            <title>1.1.55</title>
-            <pubDate>Fri, 24 Jul 2026 17:10:46 +0200</pubDate>
-            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.55</link>
-            <sparkle:version>1.1.55</sparkle:version>
-            <sparkle:shortVersionString>1.1.55</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## macOS
-
-- Choosing **Region**, **Window**, or **Full Screen** from the screenshot or video quick-action
-  menu now only saves the mode.
-- Capture starts with the next explicit click. The named **Screen only** and
-  **Screen + camera** video actions still start immediately.
-
-## Windows
-
-- The recorder widget and mini player now use the same predictable mode-selection behavior.
-- Choosing a screenshot or video mode saves it without starting a capture; the next regular
-  button click executes it.
-
-SHA256:
-
-- `DesktopRecorder.exe`: `4e02f89d152ca6b51d1eb42203858a14b4104903aba036d7a7e516ec42ac0c73`
-- `DesktopRecorder-Setup.exe`: `f1db19aa1400863910f66be568747f598e41bfd5b0661ccb4a3d14c734349326`
-- `DesktopRecorder-macOS.dmg`: `4e278ad2588030e4393e675fd170476ad6b2508c1b7f255765a883c8700ff67f`
-]]></description>
-            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.55/DesktopRecorder-macOS.dmg" length="28408011" type="application/octet-stream" sparkle:edSignature="0/PcFhCvJ5zwjmkh+/J9HyvUHKPnc57Is6R18L74HwZRJVQ99ZEnAT3AJ0hZWtjkjwyOD9mC9RONVw4LN7IWBg=="/>
         </item>
     </channel>
 </rss>
