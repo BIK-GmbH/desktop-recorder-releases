@@ -2,13 +2,13 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Knowledge Recorder Updates</title>
-        <link>https://raw.githubusercontent.com/shortcutchris/desktop-recorder-releases/main/feeds/macos/appcast.xml</link>
+        <link>https://raw.githubusercontent.com/BIK-GmbH/desktop-recorder-releases/main/feeds/macos/appcast.xml</link>
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
             <title>1.1.59</title>
             <pubDate>Fri, 24 Jul 2026 23:57:15 +0200</pubDate>
-            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.59</link>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.59</link>
             <sparkle:version>1.1.59</sparkle:version>
             <sparkle:shortVersionString>1.1.59</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -31,12 +31,12 @@
 - `DesktopRecorder.exe`: `4b3c5d2ad9bb4b83067bed9761b3978df619563f7fafc990453521fa81bf15c0`
 - `DesktopRecorder-Setup.exe`: `4cd2d6857eee5089b71e111a780f2e0360de41242fc1f087c7e6699ec365c5bd`
 ]]></description>
-            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.59/DesktopRecorder-macOS.dmg" length="28439432" type="application/octet-stream" sparkle:edSignature="bdleNDFALqj2krC94gEh4HGys1mUQuxhAmfT85qkZb4v7cPA+g5/XX3qGuFhfQ67NNmpGXgKK4fb0+EagAyeAQ=="/>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.59/DesktopRecorder-macOS.dmg" length="28439432" type="application/octet-stream" sparkle:edSignature="bdleNDFALqj2krC94gEh4HGys1mUQuxhAmfT85qkZb4v7cPA+g5/XX3qGuFhfQ67NNmpGXgKK4fb0+EagAyeAQ=="/>
         </item>
         <item>
             <title>1.1.58</title>
             <pubDate>Fri, 24 Jul 2026 23:31:07 +0200</pubDate>
-            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.58</link>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.58</link>
             <sparkle:version>1.1.58</sparkle:version>
             <sparkle:shortVersionString>1.1.58</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -59,12 +59,12 @@
 - `DesktopRecorder.exe`: `fd47b494fa6c259f551dad24e168e905a34ad8c00c88a3066176092c9369e40a`
 - `DesktopRecorder-Setup.exe`: `19c9d43aa09c6c97cd7d900beee565c08d0ba605fcc50630e0b47f2cdcf092d3`
 ]]></description>
-            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.58/DesktopRecorder-macOS.dmg" length="28435102" type="application/octet-stream" sparkle:edSignature="J32BLm7PhbEWWzW8c6nTapvWLdRPRq2XQPjXQsP5po3D7bfyXRXXS0HyczV3PUXQsUFCDdABt9eyIe6M/QieCA=="/>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.58/DesktopRecorder-macOS.dmg" length="28435102" type="application/octet-stream" sparkle:edSignature="J32BLm7PhbEWWzW8c6nTapvWLdRPRq2XQPjXQsP5po3D7bfyXRXXS0HyczV3PUXQsUFCDdABt9eyIe6M/QieCA=="/>
         </item>
         <item>
             <title>1.1.57</title>
             <pubDate>Fri, 24 Jul 2026 18:38:37 +0200</pubDate>
-            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.57</link>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.57</link>
             <sparkle:version>1.1.57</sparkle:version>
             <sparkle:shortVersionString>1.1.57</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -88,7 +88,7 @@ SHA256:
 - `DesktopRecorder.exe`: `f802199d5ae74c1467e0ea0bb34be8b48af5be6e49c750d0042994d0188f631c`
 - `DesktopRecorder-Setup.exe`: `7610333bf195f93556460e333ea1cd4bb98d317393dee4981700be0c01ed1899`
 ]]></description>
-            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.57/DesktopRecorder-macOS.dmg" length="28444963" type="application/octet-stream" sparkle:edSignature="hdgae8h3Y3EiedEH7iq+Xp6n9xWQiokDcKUhdJ8biS9gdLbMnzmHrci1U5/Cwq+hbMor5qQmsIqM8zaBmveADg=="/>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.57/DesktopRecorder-macOS.dmg" length="28444963" type="application/octet-stream" sparkle:edSignature="hdgae8h3Y3EiedEH7iq+Xp6n9xWQiokDcKUhdJ8biS9gdLbMnzmHrci1U5/Cwq+hbMor5qQmsIqM8zaBmveADg=="/>
         </item>
     </channel>
 </rss>
