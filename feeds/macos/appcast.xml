@@ -6,6 +6,42 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.61</title>
+            <pubDate>Wed, 29 Jul 2026 19:15:20 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.61</link>
+            <sparkle:version>1.1.61</sparkle:version>
+            <sparkle:shortVersionString>1.1.61</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## macOS
+
+- `gpt-transcribe` is now the recommended OpenAI model for completed meetings, imported recordings, and chat audio.
+- Live dictation now has its own selectable `gpt-live-transcribe` model.
+- Previous GPT-4o, Realtime Whisper, diarization, economical, and Whisper compatibility choices remain available; existing explicit selections are preserved.
+- Setup packages and the German/English in-app help include the new batch/live model split.
+
+## Windows
+
+- The same `gpt-transcribe` and `gpt-live-transcribe` selections are available for meeting/chat audio and live dictation.
+- Runtime routing, migration, settings, and German/English in-app help use the same batch/live split.
+- Previous compatible models remain selectable and existing explicit choices are preserved.
+
+## Verification
+
+- macOS: 210 automated tests, real `gpt-transcribe` SSE request, accepted `gpt-live-transcribe` Realtime session, and Light/Dark UI captures on the Mac Studio.
+- Windows: 272 automated tests plus Light/Dark UI captures on Grey Iron.
+- macOS DMG: Developer ID signed, notarized, stapled, and Gatekeeper accepted.
+- Windows EXE and Setup: Azure Trusted Signing verified with publisher BIK GmbH.
+
+SHA256:
+
+- `DesktopRecorder.exe`: `5501f80c77686f48c641257458fddf708abffd5d0b6388b55dbfcb8b1d88e8e4`
+- `DesktopRecorder-Setup.exe`: `8699445d8a05df13fe299ac5eb133b9109016139d3658a71896e56f8f8ebcc96`
+- `DesktopRecorder-macOS.dmg`: `7b9e8855815fc2f8e3cc708cf3bb81e54b7e468974be851a53ca44c10e00581d`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.61/DesktopRecorder-macOS.dmg" length="28449791" type="application/octet-stream" sparkle:edSignature="TRX4IKkYFxqM4FvZ5kvZl2KXr/EZLhHFM75JvVmQlrFljcK1II/a6U2zUrXJSTPP1HvcMkjtFWXyYZcUfqAjDQ=="/>
+        </item>
+        <item>
             <title>1.1.60</title>
             <pubDate>Tue, 28 Jul 2026 17:00:41 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.60</link>
@@ -62,34 +98,6 @@
 - `DesktopRecorder-Setup.exe`: `4cd2d6857eee5089b71e111a780f2e0360de41242fc1f087c7e6699ec365c5bd`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.59/DesktopRecorder-macOS.dmg" length="28439432" type="application/octet-stream" sparkle:edSignature="bdleNDFALqj2krC94gEh4HGys1mUQuxhAmfT85qkZb4v7cPA+g5/XX3qGuFhfQ67NNmpGXgKK4fb0+EagAyeAQ=="/>
-        </item>
-        <item>
-            <title>1.1.58</title>
-            <pubDate>Fri, 24 Jul 2026 23:31:07 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.58</link>
-            <sparkle:version>1.1.58</sparkle:version>
-            <sparkle:shortVersionString>1.1.58</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.58
-
-### macOS
-
-- Dictation history rows now remain visually still when the pointer moves over their text.
-- Hover and pressed feedback is limited to the individual actions: copy, playback, pin, delete, and details.
-
-### Windows
-
-- Dictation history rows no longer highlight as a whole.
-- The individual action buttons retain their direct hover and pressed feedback.
-
-### SHA256
-
-- `DesktopRecorder-macOS.dmg`: `3e249eb78b28c2569e9ffe5448855d3c7d6f975099e67b28693114a441c1e6ad`
-- `DesktopRecorder.exe`: `fd47b494fa6c259f551dad24e168e905a34ad8c00c88a3066176092c9369e40a`
-- `DesktopRecorder-Setup.exe`: `19c9d43aa09c6c97cd7d900beee565c08d0ba605fcc50630e0b47f2cdcf092d3`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.58/DesktopRecorder-macOS.dmg" length="28435102" type="application/octet-stream" sparkle:edSignature="J32BLm7PhbEWWzW8c6nTapvWLdRPRq2XQPjXQsP5po3D7bfyXRXXS0HyczV3PUXQsUFCDdABt9eyIe6M/QieCA=="/>
         </item>
     </channel>
 </rss>
