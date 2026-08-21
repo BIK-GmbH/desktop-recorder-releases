@@ -6,6 +6,26 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.62</title>
+            <pubDate>Fri, 21 Aug 2026 13:46:44 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.62</link>
+            <sparkle:version>1.1.62</sparkle:version>
+            <sparkle:shortVersionString>1.1.62</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## macOS
+
+- Copying an image from the Media Library now places the finished composite on the clipboard.
+- Quick-editor and full-editor arrows, shapes, highlights, masks and other annotation layers are
+  included at the image's native resolution.
+- The corrected behavior applies both to the viewer's Copy button and to Copy in the library grid.
+
+SHA256:
+- DesktopRecorder-macOS.dmg: 651b641e20dbf1e596401843a3e0fa49b7ae9b7ecb0584076076d95035e74618
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.62/DesktopRecorder-macOS.dmg" length="28497798" type="application/octet-stream" sparkle:edSignature="h479j6zhUtzasy9Y7Nds7Af/NK5JeGDp21C7OSsU7TUYMPevTBRpoADJF7r0cF2hHL/f+XGReSuqHdoFiS/FBw=="/>
+        </item>
+        <item>
             <title>1.1.61</title>
             <pubDate>Wed, 29 Jul 2026 19:15:20 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.61</link>
@@ -70,34 +90,6 @@ SHA256:
 - `DesktopRecorder-Setup.exe`: `d4d42fe1f46aa2d2c804737aed5462fa4c30ca5b8368f18924a7c418aa8a0418`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.60/DesktopRecorder-macOS.dmg" length="28439700" type="application/octet-stream" sparkle:edSignature="iXHtez8gL/0vTYdWtg+za2eULQwaluXOi//9aDdtGJXcZCo+YR6jcaC71zzqRX+rKPOq33zPRWsQgKP9CIdaAg=="/>
-        </item>
-        <item>
-            <title>1.1.59</title>
-            <pubDate>Fri, 24 Jul 2026 23:57:15 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.59</link>
-            <sparkle:version>1.1.59</sparkle:version>
-            <sparkle:shortVersionString>1.1.59</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.59
-
-### macOS
-
-- The dictation history storage card now opens saved dictations and audio files directly in Finder.
-- The storage folder is created automatically when it does not exist yet.
-
-### Windows
-
-- The dictation history storage card now opens saved dictations and audio files directly in File Explorer.
-- The storage folder is created automatically when it does not exist yet.
-
-### SHA256
-
-- `DesktopRecorder-macOS.dmg`: `3d89aee65da7560dbbb43d11264d73ce8c9671c0b1de4963849fc4b0b1ddae61`
-- `DesktopRecorder.exe`: `4b3c5d2ad9bb4b83067bed9761b3978df619563f7fafc990453521fa81bf15c0`
-- `DesktopRecorder-Setup.exe`: `4cd2d6857eee5089b71e111a780f2e0360de41242fc1f087c7e6699ec365c5bd`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.59/DesktopRecorder-macOS.dmg" length="28439432" type="application/octet-stream" sparkle:edSignature="bdleNDFALqj2krC94gEh4HGys1mUQuxhAmfT85qkZb4v7cPA+g5/XX3qGuFhfQ67NNmpGXgKK4fb0+EagAyeAQ=="/>
         </item>
     </channel>
 </rss>
