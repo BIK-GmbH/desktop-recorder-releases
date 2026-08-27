@@ -6,6 +6,25 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.64</title>
+            <pubDate>Thu, 27 Aug 2026 21:44:56 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.64</link>
+            <sparkle:version>1.1.64</sparkle:version>
+            <sparkle:shortVersionString>1.1.64</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## macOS
+
+- Keeps the dictation pill visible when switching between macOS desktops, displays, and another app's full-screen space.
+- Preserves the foreground app and paste target while bringing the pill back to the front.
+
+SHA256:
+
+`7ebb62c281898e019ffc43266f60a8aabd219aaec82e840dcb654d669ddf7393  DesktopRecorder-macOS.dmg`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.64/DesktopRecorder-macOS.dmg" length="28455280" type="application/octet-stream" sparkle:edSignature="Su+EJE/qIfmwELKAl/dQSe8ufK8uAv4wWimJkJke0D9p+KXk4uZfGbTogYXaKIPwxKKEUNW+pBlVBPvAj2PLCA=="/>
+        </item>
+        <item>
             <title>1.1.62</title>
             <pubDate>Fri, 21 Aug 2026 13:46:44 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.62</link>
@@ -60,36 +79,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `7b9e8855815fc2f8e3cc708cf3bb81e54b7e468974be851a53ca44c10e00581d`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.61/DesktopRecorder-macOS.dmg" length="28449791" type="application/octet-stream" sparkle:edSignature="TRX4IKkYFxqM4FvZ5kvZl2KXr/EZLhHFM75JvVmQlrFljcK1II/a6U2zUrXJSTPP1HvcMkjtFWXyYZcUfqAjDQ=="/>
-        </item>
-        <item>
-            <title>1.1.60</title>
-            <pubDate>Tue, 28 Jul 2026 17:00:41 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.60</link>
-            <sparkle:version>1.1.60</sparkle:version>
-            <sparkle:shortVersionString>1.1.60</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.60
-
-### macOS
-
-- Source code and release delivery now live under the BIK GmbH GitHub organization.
-- The Sparkle feed points directly to the BIK-owned public release repository.
-- Existing 1.1.59 installations remain update-compatible through GitHub's repository redirects.
-
-### Windows
-
-- Source code and release delivery now live under the BIK GmbH GitHub organization.
-- The in-app updater points directly to the BIK-owned public release repository.
-- Existing 1.1.59 installations remain update-compatible through GitHub's repository redirects.
-
-### SHA256
-
-- `DesktopRecorder-macOS.dmg`: `b57219e92c248e0c2a40de1849f9f08e79e10f3d3abd7fdd3749c8a154b6f584`
-- `DesktopRecorder.exe`: `25b1694e60a7f6634a151264c2d122e85c555ae2b74556d56736680eb3d3549a`
-- `DesktopRecorder-Setup.exe`: `d4d42fe1f46aa2d2c804737aed5462fa4c30ca5b8368f18924a7c418aa8a0418`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.60/DesktopRecorder-macOS.dmg" length="28439700" type="application/octet-stream" sparkle:edSignature="iXHtez8gL/0vTYdWtg+za2eULQwaluXOi//9aDdtGJXcZCo+YR6jcaC71zzqRX+rKPOq33zPRWsQgKP9CIdaAg=="/>
         </item>
     </channel>
 </rss>
