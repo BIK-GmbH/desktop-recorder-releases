@@ -6,6 +6,24 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.66</title>
+            <pubDate>Mon, 21 Sep 2026 13:13:12 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.66</link>
+            <sparkle:version>1.1.66</sparkle:version>
+            <sparkle:shortVersionString>1.1.66</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## macOS
+
+- Restored dragging the floating mini-player on macOS 27 Golden Gate. Move it by the timer, audio wave or an empty background area, including while another app is active.
+- Fixed the top-left mode icon shifting after its menu closes.
+- Added an accessible name and current-mode value to the mode selector.
+
+Requires macOS 15 or later on Apple Silicon. This is a macOS-only update; Windows is unchanged.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.66/DesktopRecorder-macOS.dmg" length="28698343" type="application/octet-stream" sparkle:edSignature="PcPicDuwxrKm74JWUJwI2RyouvDHXlraaxG8uBIdYb7blAe+Z5lgCuYYyAvPchxR6I1KFvr2dETrHSUIs5pEDQ=="/>
+        </item>
+        <item>
             <title>1.1.65</title>
             <pubDate>Thu, 27 Aug 2026 22:03:16 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.65</link>
@@ -45,26 +63,6 @@ SHA256:
 `7ebb62c281898e019ffc43266f60a8aabd219aaec82e840dcb654d669ddf7393  DesktopRecorder-macOS.dmg`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.64/DesktopRecorder-macOS.dmg" length="28455280" type="application/octet-stream" sparkle:edSignature="Su+EJE/qIfmwELKAl/dQSe8ufK8uAv4wWimJkJke0D9p+KXk4uZfGbTogYXaKIPwxKKEUNW+pBlVBPvAj2PLCA=="/>
-        </item>
-        <item>
-            <title>1.1.62</title>
-            <pubDate>Fri, 21 Aug 2026 13:46:44 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.62</link>
-            <sparkle:version>1.1.62</sparkle:version>
-            <sparkle:shortVersionString>1.1.62</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## macOS
-
-- Copying an image from the Media Library now places the finished composite on the clipboard.
-- Quick-editor and full-editor arrows, shapes, highlights, masks and other annotation layers are
-  included at the image's native resolution.
-- The corrected behavior applies both to the viewer's Copy button and to Copy in the library grid.
-
-SHA256:
-- DesktopRecorder-macOS.dmg: 651b641e20dbf1e596401843a3e0fa49b7ae9b7ecb0584076076d95035e74618
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.62/DesktopRecorder-macOS.dmg" length="28497798" type="application/octet-stream" sparkle:edSignature="h479j6zhUtzasy9Y7Nds7Af/NK5JeGDp21C7OSsU7TUYMPevTBRpoADJF7r0cF2hHL/f+XGReSuqHdoFiS/FBw=="/>
         </item>
     </channel>
 </rss>
