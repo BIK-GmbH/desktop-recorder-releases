@@ -6,6 +6,24 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.67</title>
+            <pubDate>Tue, 22 Sep 2026 09:57:08 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.67</link>
+            <sparkle:version>1.1.67</sparkle:version>
+            <sparkle:shortVersionString>1.1.67</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Platforms included: **macOS**.
+
+### macOS
+- Fixed the collapsed recorder strip floating away from the screen edge. Its window now matches the narrow strip and stays 12 points from the selected edge.
+- Expanding and collapsing preserve the selected monitor and edge, including multi-monitor layouts.
+- Resizing no longer overwrites the saved widget position. Edge snapping waits until the mouse is released.
+- The strip retains its recording, processing, meeting-detection and saved-status indicator dots.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.67/DesktopRecorder-macOS.dmg" length="28682045" type="application/octet-stream" sparkle:edSignature="muLQQwI1Ne3K5YPDt1KWcLiilTAbrKDVCFvhvSFpkx5EdHyQ3xpIRjz2WFTjiwLoITDcSsucwtZkXMdJwOGqCA=="/>
+        </item>
+        <item>
             <title>1.1.66</title>
             <pubDate>Mon, 21 Sep 2026 13:13:12 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.66</link>
@@ -44,25 +62,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `4b258d7fda418d289c2c7f70616000cb0331f04f9e1141566e48eb6bec1a6f1f`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.65/DesktopRecorder-macOS.dmg" length="28507041" type="application/octet-stream" sparkle:edSignature="elN6ozcVuGYHaV4S5lkQeYCO8NohuCjM/KrvPNVtZOlYYuCf/KNvG21ZifjsYCkwcX80AcyLQjoLk7o/rKOoBg=="/>
-        </item>
-        <item>
-            <title>1.1.64</title>
-            <pubDate>Thu, 27 Aug 2026 21:44:56 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.64</link>
-            <sparkle:version>1.1.64</sparkle:version>
-            <sparkle:shortVersionString>1.1.64</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## macOS
-
-- Keeps the dictation pill visible when switching between macOS desktops, displays, and another app's full-screen space.
-- Preserves the foreground app and paste target while bringing the pill back to the front.
-
-SHA256:
-
-`7ebb62c281898e019ffc43266f60a8aabd219aaec82e840dcb654d669ddf7393  DesktopRecorder-macOS.dmg`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.64/DesktopRecorder-macOS.dmg" length="28455280" type="application/octet-stream" sparkle:edSignature="Su+EJE/qIfmwELKAl/dQSe8ufK8uAv4wWimJkJke0D9p+KXk4uZfGbTogYXaKIPwxKKEUNW+pBlVBPvAj2PLCA=="/>
         </item>
     </channel>
 </rss>
