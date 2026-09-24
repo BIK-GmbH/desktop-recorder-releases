@@ -6,6 +6,43 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.69</title>
+            <pubDate>Thu, 24 Sep 2026 17:57:29 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.69</link>
+            <sparkle:version>1.1.69</sparkle:version>
+            <sparkle:shortVersionString>1.1.69</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.69 — macOS & Windows
+
+## macOS
+
+- Optional **Nemotron 3 (experimental)** local speaker separation, with a checksum-verified model download and bundled native runtime. The existing engine remains the default.
+- Non-blocking introduction reminder after recording starts, with an option to dismiss permanently.
+- **Review names** in meeting notes: suggestions from German/English self-introductions, conflict warnings and repeatable corrections of transcript speaker labels.
+- Updated German and English help. Recording and regular transcription are preserved if speaker separation fails.
+
+## Windows
+
+- Matching Nemotron 3, introduction reminder and name-review workflow, with word-timed Whisper alignment and a signed portable runtime.
+- Nemotron runs on CPU and can be slower than real time. It remains opt-in and experimental.
+- Matching bilingual help, cancellation and failure handling.
+
+## Important limits
+
+Name suggestions require review; they are not verified identities. Summary text is not automatically rewritten. No persistent voice profiles are created. Nemotron supports up to eight voices. The existing microphone/system distinction remains: a shared room microphone is not a new multi-person room mode.
+
+Verified on Mac Studio and Grey Iron with 226 macOS tests, 285 Windows Core tests, synthetic-audio inference/cancellation checks and Light/Dark UI screenshots. Real-meeting accuracy has not been established by these synthetic tests.
+
+SHA256:
+
+- `DesktopRecorder-macOS.dmg`: `eebc1972fb19a80c56c0d6e695590ca50340c9c00330add66032f722a4e86d53`
+- `DesktopRecorder.exe`: `d8fc370e263f7ddb324c03eeee7210e97ea8129953ff4a5e37005be5fd292941`
+- `DesktopRecorder-Setup.exe`: `6354e01d1386b93bf9f664fcafece9d2e6c2eebd2a2a29b2c1608d3e4760a216`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.69/DesktopRecorder-macOS.dmg" length="41168909" type="application/octet-stream" sparkle:edSignature="T/C+UEP09obaGWqRdvtTYLnbl1id68b5sN2TupelJ1RJKyUj9ir21T22hoBNxwHQdH3zmpsJ/AgPwNhW1sYZBA=="/>
+        </item>
+        <item>
             <title>1.1.68</title>
             <pubDate>Thu, 24 Sep 2026 16:54:23 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.68</link>
@@ -39,24 +76,6 @@
 - The strip retains its recording, processing, meeting-detection and saved-status indicator dots.
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.67/DesktopRecorder-macOS.dmg" length="28682045" type="application/octet-stream" sparkle:edSignature="muLQQwI1Ne3K5YPDt1KWcLiilTAbrKDVCFvhvSFpkx5EdHyQ3xpIRjz2WFTjiwLoITDcSsucwtZkXMdJwOGqCA=="/>
-        </item>
-        <item>
-            <title>1.1.66</title>
-            <pubDate>Mon, 21 Sep 2026 13:13:12 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.66</link>
-            <sparkle:version>1.1.66</sparkle:version>
-            <sparkle:shortVersionString>1.1.66</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## macOS
-
-- Restored dragging the floating mini-player on macOS 27 Golden Gate. Move it by the timer, audio wave or an empty background area, including while another app is active.
-- Fixed the top-left mode icon shifting after its menu closes.
-- Added an accessible name and current-mode value to the mode selector.
-
-Requires macOS 15 or later on Apple Silicon. This is a macOS-only update; Windows is unchanged.
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.66/DesktopRecorder-macOS.dmg" length="28698343" type="application/octet-stream" sparkle:edSignature="PcPicDuwxrKm74JWUJwI2RyouvDHXlraaxG8uBIdYb7blAe+Z5lgCuYYyAvPchxR6I1KFvr2dETrHSUIs5pEDQ=="/>
         </item>
     </channel>
 </rss>
