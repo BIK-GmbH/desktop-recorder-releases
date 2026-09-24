@@ -6,6 +6,23 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.68</title>
+            <pubDate>Thu, 24 Sep 2026 16:54:23 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.68</link>
+            <sparkle:version>1.1.68</sparkle:version>
+            <sparkle:shortVersionString>1.1.68</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## macOS
+
+- The collapsed mini-player strip once again sits flush with the selected screen edge.
+- The expanded card retains its 12-point spacing.
+- macOS 27 panel sizing, monitor anchoring and stable repeated collapse/expand behavior remain intact.
+
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.68/DesktopRecorder-macOS.dmg" length="28681799" type="application/octet-stream" sparkle:edSignature="linzj4H0JtlrTiSVogmGTmv1/VdG3Lz3W4L23M8dK9GBt3zTOMDdlc47AZ8hii0kSka98/PJfKCW7ka7N0EuBA=="/>
+        </item>
+        <item>
             <title>1.1.67</title>
             <pubDate>Tue, 22 Sep 2026 09:57:08 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.67</link>
@@ -40,28 +57,6 @@
 Requires macOS 15 or later on Apple Silicon. This is a macOS-only update; Windows is unchanged.
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.66/DesktopRecorder-macOS.dmg" length="28698343" type="application/octet-stream" sparkle:edSignature="PcPicDuwxrKm74JWUJwI2RyouvDHXlraaxG8uBIdYb7blAe+Z5lgCuYYyAvPchxR6I1KFvr2dETrHSUIs5pEDQ=="/>
-        </item>
-        <item>
-            <title>1.1.65</title>
-            <pubDate>Thu, 27 Aug 2026 22:03:16 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.65</link>
-            <sparkle:version>1.1.65</sparkle:version>
-            <sparkle:shortVersionString>1.1.65</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## macOS
-
-- Adds a restrained, consistent motion language for page and menu changes, hover and press
-  feedback, status messages, viewers, editors, and processing indicators.
-- Fully respects macOS Reduce Motion: custom spatial movement and continuous pulses become static
-  or opacity-only.
-- Keeps drawing, dragging, resizing, cropping, and other direct interactions immediate.
-
-SHA256:
-
-- `DesktopRecorder-macOS.dmg`: `4b258d7fda418d289c2c7f70616000cb0331f04f9e1141566e48eb6bec1a6f1f`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.65/DesktopRecorder-macOS.dmg" length="28507041" type="application/octet-stream" sparkle:edSignature="elN6ozcVuGYHaV4S5lkQeYCO8NohuCjM/KrvPNVtZOlYYuCf/KNvG21ZifjsYCkwcX80AcyLQjoLk7o/rKOoBg=="/>
         </item>
     </channel>
 </rss>
