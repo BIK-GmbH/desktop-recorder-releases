@@ -6,6 +6,33 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.70</title>
+            <pubDate>Fri, 25 Sep 2026 11:27:10 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.70</link>
+            <sparkle:version>1.1.70</sparkle:version>
+            <sparkle:shortVersionString>1.1.70</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.70 — macOS update
+
+## macOS
+
+- Fixes the floating widget's layout loop on macOS 27, which could crash the app after stopping a meeting and again on the next launch.
+- Keeps the edge-anchored collapsed strip and expanded card behavior. Recordings and preferences are retained; interrupted processing can resume after restart.
+
+This hotfix contains a macOS installer only. The current Windows release remains 1.1.69.
+
+## Deutsch
+
+- Behebt eine Layout-Schleife des Widgets unter macOS 27, die nach dem Stoppen eines Meetings und beim erneuten Start zum Absturz führen konnte.
+- Die schmale Rand-Leiste bleibt erhalten. Aufnahmen und Einstellungen werden nicht zurückgesetzt; eine unterbrochene Verarbeitung kann nach dem Neustart fortgesetzt werden.
+
+SHA256:
+- `DesktopRecorder-macOS.dmg`: `3ccc5a90e681a6443ad6f313121dbf8b2cde6baf0b9756e6728511aa36797cd1`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.70/DesktopRecorder-macOS.dmg" length="41171319" type="application/octet-stream" sparkle:edSignature="M8ZKjPHd6QmLGNZSQtlZLITdBGSnHdotYJMffS1xqJOHY3IjvjssJytpHslUwvHzkG8+wZx/A2qofxoYOT3FCw=="/>
+        </item>
+        <item>
             <title>1.1.69</title>
             <pubDate>Thu, 24 Sep 2026 17:57:29 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.69</link>
@@ -58,24 +85,6 @@ SHA256:
 
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.68/DesktopRecorder-macOS.dmg" length="28681799" type="application/octet-stream" sparkle:edSignature="linzj4H0JtlrTiSVogmGTmv1/VdG3Lz3W4L23M8dK9GBt3zTOMDdlc47AZ8hii0kSka98/PJfKCW7ka7N0EuBA=="/>
-        </item>
-        <item>
-            <title>1.1.67</title>
-            <pubDate>Tue, 22 Sep 2026 09:57:08 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.67</link>
-            <sparkle:version>1.1.67</sparkle:version>
-            <sparkle:shortVersionString>1.1.67</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Platforms included: **macOS**.
-
-### macOS
-- Fixed the collapsed recorder strip floating away from the screen edge. Its window now matches the narrow strip and stays 12 points from the selected edge.
-- Expanding and collapsing preserve the selected monitor and edge, including multi-monitor layouts.
-- Resizing no longer overwrites the saved widget position. Edge snapping waits until the mouse is released.
-- The strip retains its recording, processing, meeting-detection and saved-status indicator dots.
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.67/DesktopRecorder-macOS.dmg" length="28682045" type="application/octet-stream" sparkle:edSignature="muLQQwI1Ne3K5YPDt1KWcLiilTAbrKDVCFvhvSFpkx5EdHyQ3xpIRjz2WFTjiwLoITDcSsucwtZkXMdJwOGqCA=="/>
         </item>
     </channel>
 </rss>
