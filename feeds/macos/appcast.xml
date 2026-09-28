@@ -6,6 +6,34 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.71</title>
+            <pubDate>Mon, 28 Sep 2026 13:40:07 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.71</link>
+            <sparkle:version>1.1.71</sparkle:version>
+            <sparkle:shortVersionString>1.1.71</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Bug-fix release for macOS and Windows.
+
+## macOS
+
+- **Back to the main window hides the mini-player:** the mini-player's window button now switches to the main window and hides the mini-player, so only one recorder is on screen. Show it again from the main window's corner button.
+- **Nemotron on long meetings:** the experimental speaker separation no longer stops after 15 minutes; its time limit now grows with the meeting length.
+- **Gemma 4 download:** "Gemma 4 E4B Instruct" downloads again (about 4.3 GB). Existing downloads keep working.
+- **Help:** updated mini-player guidance in German and English.
+
+## Windows
+
+- **Mode selection sticks:** a mode chosen on the recorder card or in the mini-player is now saved and used for processing instead of snapping back to "Meeting Notes".
+- **Long meetings summarize locally again:** local summaries of long recordings no longer abort with "llama_decode failed: 'NoKvSlot'".
+- **Nemotron on long meetings:** no 15-minute limit anymore; the helper uses all processor cores at reduced priority (about 1.7× faster measured).
+- **Gemma 4 download:** "Gemma 4 E4B Instruct" downloads again (about 4.3 GB). Existing downloads keep working.
+- **Mini-player:** the back-to-main-window button hides the mini-player, and showing/hiding it is no longer undone when another setting is saved.
+- **Help:** updated mini-player and Nemotron guidance in German and English.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.71/DesktopRecorder-macOS.dmg" length="42146687" type="application/octet-stream" sparkle:edSignature="KMS8XVvykha3fv5vdCZOQksZr+69dlyOOPoMNmAMJSf4QSF13g+uoaGcrgz8B+qL0bQIsinFlxjn0eHNrHRkDQ=="/>
+        </item>
+        <item>
             <title>1.1.70</title>
             <pubDate>Fri, 25 Sep 2026 11:27:10 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.70</link>
@@ -68,23 +96,6 @@ SHA256:
 - `DesktopRecorder-Setup.exe`: `6354e01d1386b93bf9f664fcafece9d2e6c2eebd2a2a29b2c1608d3e4760a216`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.69/DesktopRecorder-macOS.dmg" length="41168909" type="application/octet-stream" sparkle:edSignature="T/C+UEP09obaGWqRdvtTYLnbl1id68b5sN2TupelJ1RJKyUj9ir21T22hoBNxwHQdH3zmpsJ/AgPwNhW1sYZBA=="/>
-        </item>
-        <item>
-            <title>1.1.68</title>
-            <pubDate>Thu, 24 Sep 2026 16:54:23 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.68</link>
-            <sparkle:version>1.1.68</sparkle:version>
-            <sparkle:shortVersionString>1.1.68</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## macOS
-
-- The collapsed mini-player strip once again sits flush with the selected screen edge.
-- The expanded card retains its 12-point spacing.
-- macOS 27 panel sizing, monitor anchoring and stable repeated collapse/expand behavior remain intact.
-
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.68/DesktopRecorder-macOS.dmg" length="28681799" type="application/octet-stream" sparkle:edSignature="linzj4H0JtlrTiSVogmGTmv1/VdG3Lz3W4L23M8dK9GBt3zTOMDdlc47AZ8hii0kSka98/PJfKCW7ka7N0EuBA=="/>
         </item>
     </channel>
 </rss>
