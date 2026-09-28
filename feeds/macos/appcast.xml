@@ -6,6 +6,32 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.72</title>
+            <pubDate>Mon, 28 Sep 2026 14:18:28 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.72</link>
+            <sparkle:version>1.1.72</sparkle:version>
+            <sparkle:shortVersionString>1.1.72</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Company sign-in for the Corporate Digital Brain on macOS and Windows.
+
+## macOS
+
+- **Company sign-in for the Brain:** Settings › Cloud & Accounts signs in with your Microsoft company account in the browser; the Brain confirms who you are. Your knowledge areas come from your own permissions and notes upload to the area you choose. The API key remains available as an alternative.
+- **One setup package for the whole team:** packages carry the Brain address and settings but no personal access; after the import the app offers the company sign-in.
+- **Readable knowledge-area names** in the note header picker.
+- **Help:** company sign-in and setup packages, German and English.
+
+## Windows
+
+- **Company sign-in for the Brain:** the same sign-in through the default browser; your knowledge areas appear in Settings and in the note header. The API key remains available as an alternative.
+- **One setup package for the whole team:** packages carry the Brain address and settings but no personal access; the end of the import offers the company sign-in.
+- **Readable knowledge-area names** in the note header picker.
+- **Help:** new "Send to Corporate Digital Brain" section plus setup-package guidance, German and English.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.72/DesktopRecorder-macOS.dmg" length="41560371" type="application/octet-stream" sparkle:edSignature="MkHHpvMjZ1jBYFLOI/9flTRuTJz0Ui1qPKOA9cOwIWNqR2gFyAB8vKVy8pBFCp+IMPnYTwcQv9Bbaz0kL3wdAQ=="/>
+        </item>
+        <item>
             <title>1.1.71</title>
             <pubDate>Mon, 28 Sep 2026 13:40:07 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.71</link>
@@ -59,43 +85,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `3ccc5a90e681a6443ad6f313121dbf8b2cde6baf0b9756e6728511aa36797cd1`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.70/DesktopRecorder-macOS.dmg" length="41171319" type="application/octet-stream" sparkle:edSignature="M8ZKjPHd6QmLGNZSQtlZLITdBGSnHdotYJMffS1xqJOHY3IjvjssJytpHslUwvHzkG8+wZx/A2qofxoYOT3FCw=="/>
-        </item>
-        <item>
-            <title>1.1.69</title>
-            <pubDate>Thu, 24 Sep 2026 17:57:29 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.69</link>
-            <sparkle:version>1.1.69</sparkle:version>
-            <sparkle:shortVersionString>1.1.69</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.69 — macOS & Windows
-
-## macOS
-
-- Optional **Nemotron 3 (experimental)** local speaker separation, with a checksum-verified model download and bundled native runtime. The existing engine remains the default.
-- Non-blocking introduction reminder after recording starts, with an option to dismiss permanently.
-- **Review names** in meeting notes: suggestions from German/English self-introductions, conflict warnings and repeatable corrections of transcript speaker labels.
-- Updated German and English help. Recording and regular transcription are preserved if speaker separation fails.
-
-## Windows
-
-- Matching Nemotron 3, introduction reminder and name-review workflow, with word-timed Whisper alignment and a signed portable runtime.
-- Nemotron runs on CPU and can be slower than real time. It remains opt-in and experimental.
-- Matching bilingual help, cancellation and failure handling.
-
-## Important limits
-
-Name suggestions require review; they are not verified identities. Summary text is not automatically rewritten. No persistent voice profiles are created. Nemotron supports up to eight voices. The existing microphone/system distinction remains: a shared room microphone is not a new multi-person room mode.
-
-Verified on Mac Studio and Grey Iron with 226 macOS tests, 285 Windows Core tests, synthetic-audio inference/cancellation checks and Light/Dark UI screenshots. Real-meeting accuracy has not been established by these synthetic tests.
-
-SHA256:
-
-- `DesktopRecorder-macOS.dmg`: `eebc1972fb19a80c56c0d6e695590ca50340c9c00330add66032f722a4e86d53`
-- `DesktopRecorder.exe`: `d8fc370e263f7ddb324c03eeee7210e97ea8129953ff4a5e37005be5fd292941`
-- `DesktopRecorder-Setup.exe`: `6354e01d1386b93bf9f664fcafece9d2e6c2eebd2a2a29b2c1608d3e4760a216`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.69/DesktopRecorder-macOS.dmg" length="41168909" type="application/octet-stream" sparkle:edSignature="T/C+UEP09obaGWqRdvtTYLnbl1id68b5sN2TupelJ1RJKyUj9ir21T22hoBNxwHQdH3zmpsJ/AgPwNhW1sYZBA=="/>
         </item>
     </channel>
 </rss>
