@@ -6,6 +6,21 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.76</title>
+            <pubDate>Tue, 29 Sep 2026 23:26:09 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.76</link>
+            <sparkle:version>1.1.76</sparkle:version>
+            <sparkle:shortVersionString>1.1.76</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.76
+
+- **Media Library to the Brain:** send screenshots and screen recordings to a knowledge area of the Corporate Digital Brain with the company login — right-click an item › "Send to Brain…" or select several and click "Send to Brain". An icon next to the date shows the processing state.
+- **Large videos in parts:** videos above 95 MB are uploaded in parts and continue after a lost connection or quitting the app.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.76/DesktopRecorder-macOS.dmg" length="42516231" type="application/octet-stream" sparkle:edSignature="4cY0Z6LLUxK0B5TSL0xbxi6QqHGNDuqpefU4yO0xGYHir3KJ58Nu6qIf3mlxLGBm+kAnXKrKJWK+wPkkLhlaAQ=="/>
+        </item>
+        <item>
             <title>1.1.72</title>
             <pubDate>Mon, 28 Sep 2026 14:18:28 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.72</link>
@@ -58,33 +73,6 @@
 - **Help:** updated mini-player and Nemotron guidance in German and English.
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.71/DesktopRecorder-macOS.dmg" length="42146687" type="application/octet-stream" sparkle:edSignature="KMS8XVvykha3fv5vdCZOQksZr+69dlyOOPoMNmAMJSf4QSF13g+uoaGcrgz8B+qL0bQIsinFlxjn0eHNrHRkDQ=="/>
-        </item>
-        <item>
-            <title>1.1.70</title>
-            <pubDate>Fri, 25 Sep 2026 11:27:10 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.70</link>
-            <sparkle:version>1.1.70</sparkle:version>
-            <sparkle:shortVersionString>1.1.70</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.70 — macOS update
-
-## macOS
-
-- Fixes the floating widget's layout loop on macOS 27, which could crash the app after stopping a meeting and again on the next launch.
-- Keeps the edge-anchored collapsed strip and expanded card behavior. Recordings and preferences are retained; interrupted processing can resume after restart.
-
-This hotfix contains a macOS installer only. The current Windows release remains 1.1.69.
-
-## Deutsch
-
-- Behebt eine Layout-Schleife des Widgets unter macOS 27, die nach dem Stoppen eines Meetings und beim erneuten Start zum Absturz führen konnte.
-- Die schmale Rand-Leiste bleibt erhalten. Aufnahmen und Einstellungen werden nicht zurückgesetzt; eine unterbrochene Verarbeitung kann nach dem Neustart fortgesetzt werden.
-
-SHA256:
-- `DesktopRecorder-macOS.dmg`: `3ccc5a90e681a6443ad6f313121dbf8b2cde6baf0b9756e6728511aa36797cd1`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.70/DesktopRecorder-macOS.dmg" length="41171319" type="application/octet-stream" sparkle:edSignature="M8ZKjPHd6QmLGNZSQtlZLITdBGSnHdotYJMffS1xqJOHY3IjvjssJytpHslUwvHzkG8+wZx/A2qofxoYOT3FCw=="/>
         </item>
     </channel>
 </rss>
