@@ -6,6 +6,20 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.78</title>
+            <pubDate>Wed, 30 Sep 2026 08:15:45 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.78</link>
+            <sparkle:version>1.1.78</sparkle:version>
+            <sparkle:shortVersionString>1.1.78</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.78
+
+- **Comment when sending to the Brain:** an optional comment field in the send dialog adds context the Brain cannot see in the image or video; it becomes its own "Comment" section in the Brain and shows in the viewer's history.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.78/DesktopRecorder-macOS.dmg" length="41747437" type="application/octet-stream" sparkle:edSignature="l2cq1psrelJ4ryZH8gS06h6oNMUn8P3qQ1N10ajyXZhHAKHswb736Q+jp3FpCpCoPednrHmL62s+6SUN+xTaAg=="/>
+        </item>
+        <item>
             <title>1.1.77</title>
             <pubDate>Wed, 30 Sep 2026 07:22:05 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.77</link>
@@ -33,32 +47,6 @@
 - **Large videos in parts:** videos above 95 MB are uploaded in parts and continue after a lost connection or quitting the app.
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.76/DesktopRecorder-macOS.dmg" length="42516231" type="application/octet-stream" sparkle:edSignature="4cY0Z6LLUxK0B5TSL0xbxi6QqHGNDuqpefU4yO0xGYHir3KJ58Nu6qIf3mlxLGBm+kAnXKrKJWK+wPkkLhlaAQ=="/>
-        </item>
-        <item>
-            <title>1.1.72</title>
-            <pubDate>Mon, 28 Sep 2026 14:18:28 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.72</link>
-            <sparkle:version>1.1.72</sparkle:version>
-            <sparkle:shortVersionString>1.1.72</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Company sign-in for the Corporate Digital Brain on macOS and Windows.
-
-## macOS
-
-- **Company sign-in for the Brain:** Settings › Cloud & Accounts signs in with your Microsoft company account in the browser; the Brain confirms who you are. Your knowledge areas come from your own permissions and notes upload to the area you choose. The API key remains available as an alternative.
-- **One setup package for the whole team:** packages carry the Brain address and settings but no personal access; after the import the app offers the company sign-in.
-- **Readable knowledge-area names** in the note header picker.
-- **Help:** company sign-in and setup packages, German and English.
-
-## Windows
-
-- **Company sign-in for the Brain:** the same sign-in through the default browser; your knowledge areas appear in Settings and in the note header. The API key remains available as an alternative.
-- **One setup package for the whole team:** packages carry the Brain address and settings but no personal access; the end of the import offers the company sign-in.
-- **Readable knowledge-area names** in the note header picker.
-- **Help:** new "Send to Corporate Digital Brain" section plus setup-package guidance, German and English.
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.72/DesktopRecorder-macOS.dmg" length="41560371" type="application/octet-stream" sparkle:edSignature="MkHHpvMjZ1jBYFLOI/9flTRuTJz0Ui1qPKOA9cOwIWNqR2gFyAB8vKVy8pBFCp+IMPnYTwcQv9Bbaz0kL3wdAQ=="/>
         </item>
     </channel>
 </rss>
