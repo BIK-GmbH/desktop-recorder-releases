@@ -6,6 +6,20 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.77</title>
+            <pubDate>Wed, 30 Sep 2026 07:22:05 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.77</link>
+            <sparkle:version>1.1.77</sparkle:version>
+            <sparkle:shortVersionString>1.1.77</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.77
+
+- **Brain history and new versions:** the brain button in the media viewer lists every send with date, time, knowledge area, version and state. After changing an image, "Send new version…" sends it as an additional "(Version 2)" document — the earlier one stays in the Brain.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.77/DesktopRecorder-macOS.dmg" length="42403195" type="application/octet-stream" sparkle:edSignature="uSy9qGdw7F3b8KjmyoTTlu4R8LTdNvfvr9az54Q372YQFmRednHq0vUcSL2iNAdulHmD9O+FoU5q+SHk8XBgDQ=="/>
+        </item>
+        <item>
             <title>1.1.76</title>
             <pubDate>Tue, 29 Sep 2026 23:26:09 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.76</link>
@@ -45,34 +59,6 @@
 - **Help:** new "Send to Corporate Digital Brain" section plus setup-package guidance, German and English.
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.72/DesktopRecorder-macOS.dmg" length="41560371" type="application/octet-stream" sparkle:edSignature="MkHHpvMjZ1jBYFLOI/9flTRuTJz0Ui1qPKOA9cOwIWNqR2gFyAB8vKVy8pBFCp+IMPnYTwcQv9Bbaz0kL3wdAQ=="/>
-        </item>
-        <item>
-            <title>1.1.71</title>
-            <pubDate>Mon, 28 Sep 2026 13:40:07 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.71</link>
-            <sparkle:version>1.1.71</sparkle:version>
-            <sparkle:shortVersionString>1.1.71</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Bug-fix release for macOS and Windows.
-
-## macOS
-
-- **Back to the main window hides the mini-player:** the mini-player's window button now switches to the main window and hides the mini-player, so only one recorder is on screen. Show it again from the main window's corner button.
-- **Nemotron on long meetings:** the experimental speaker separation no longer stops after 15 minutes; its time limit now grows with the meeting length.
-- **Gemma 4 download:** "Gemma 4 E4B Instruct" downloads again (about 4.3 GB). Existing downloads keep working.
-- **Help:** updated mini-player guidance in German and English.
-
-## Windows
-
-- **Mode selection sticks:** a mode chosen on the recorder card or in the mini-player is now saved and used for processing instead of snapping back to "Meeting Notes".
-- **Long meetings summarize locally again:** local summaries of long recordings no longer abort with "llama_decode failed: 'NoKvSlot'".
-- **Nemotron on long meetings:** no 15-minute limit anymore; the helper uses all processor cores at reduced priority (about 1.7× faster measured).
-- **Gemma 4 download:** "Gemma 4 E4B Instruct" downloads again (about 4.3 GB). Existing downloads keep working.
-- **Mini-player:** the back-to-main-window button hides the mini-player, and showing/hiding it is no longer undone when another setting is saved.
-- **Help:** updated mini-player and Nemotron guidance in German and English.
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.71/DesktopRecorder-macOS.dmg" length="42146687" type="application/octet-stream" sparkle:edSignature="KMS8XVvykha3fv5vdCZOQksZr+69dlyOOPoMNmAMJSf4QSF13g+uoaGcrgz8B+qL0bQIsinFlxjn0eHNrHRkDQ=="/>
         </item>
     </channel>
 </rss>
