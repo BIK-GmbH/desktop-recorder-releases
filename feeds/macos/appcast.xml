@@ -6,6 +6,35 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.83</title>
+            <pubDate>Fri, 09 Oct 2026 20:03:09 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.83</link>
+            <sparkle:version>1.1.83</sparkle:version>
+            <sparkle:shortVersionString>1.1.83</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.83 — macOS update
+
+## macOS
+
+- Optional **Apple Intelligence (on device)** for meeting summaries, note chat and dictation cleanup, each independently selectable in Settings.
+- Requires an eligible Mac with macOS 26 or later and Apple Intelligence enabled. Availability and model-download states are explained in the relevant settings page. Existing provider choices are not changed.
+- Streams responses locally without an API key or automatic cloud fallback. Long notes and meetings are processed in bounded sections with meeting progress and cancellation; originals remain recoverable.
+- Meeting titles reuse the completed summary. Oversized or failed dictation cleanup preserves the original text. Setup packages keep Apple selections Mac-only.
+- Updated German and English help. Source-based date instructions avoid guessing calendar dates from relative deadlines.
+
+**Please note:** This optional system model is not a replacement for your existing engines. Long content can take several minutes and condensation can omit details; check names, dates and tasks against the original. Transcription and speaker separation are unchanged. This release was tested on macOS 26.5.2; macOS-27-specific roadmap features are separate work.
+
+## Windows
+
+No Windows binary in this release. [Windows 1.1.82](https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.82) remains current and available through the platform-aware in-app updater.
+
+SHA256:
+- `DesktopRecorder-macOS.dmg`: `afdc9917d37cfd4bcba02921acf80c31e93407babd08760655db95ea36938ccf`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.83/DesktopRecorder-macOS.dmg" length="42409864" type="application/octet-stream" sparkle:edSignature="LDNPkbgFXKQX6SYp+5OrqIVAHlPap4QSkMP6lkzdOUpCDihh74rtbAA+n0knCjGX0CpfL2deW/ZfUpCu4BCpAQ=="/>
+        </item>
+        <item>
             <title>1.1.81</title>
             <pubDate>Fri, 09 Oct 2026 16:34:14 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.81</link>
@@ -53,20 +82,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `cb2a2697c09fecce2d3aa79b5471796d1a05c6a202d01b232af8f3bff92a7efa`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.80/DesktopRecorder-macOS.dmg" length="42359159" type="application/octet-stream" sparkle:edSignature="8pb1NYz7m3101FWi2RQLvSX63p4zGeu92ief8TU/RLly92f17QOclY2CCUTGCytI/Hx3kZK+rGCWl3ml5KWKCg=="/>
-        </item>
-        <item>
-            <title>1.1.78</title>
-            <pubDate>Wed, 30 Sep 2026 08:15:45 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.78</link>
-            <sparkle:version>1.1.78</sparkle:version>
-            <sparkle:shortVersionString>1.1.78</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.78
-
-- **Comment when sending to the Brain:** an optional comment field in the send dialog adds context the Brain cannot see in the image or video; it becomes its own "Comment" section in the Brain and shows in the viewer's history.
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.78/DesktopRecorder-macOS.dmg" length="41747437" type="application/octet-stream" sparkle:edSignature="l2cq1psrelJ4ryZH8gS06h6oNMUn8P3qQ1N10ajyXZhHAKHswb736Q+jp3FpCpCoPednrHmL62s+6SUN+xTaAg=="/>
         </item>
     </channel>
 </rss>
