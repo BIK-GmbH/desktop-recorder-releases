@@ -6,6 +6,31 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.80</title>
+            <pubDate>Fri, 09 Oct 2026 16:00:13 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.80</link>
+            <sparkle:version>1.1.80</sparkle:version>
+            <sparkle:shortVersionString>1.1.80</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.80 — macOS update
+
+## macOS
+
+- Personal quick access in the sidebar, with Dictation History ready to open in one click.
+- Add settings pages and app areas, reorder or remove favorites, and keep the selection across restarts.
+- The same favorites are available from the menu bar. Short windows use a compact first-favorite row with an overflow popover; the mini-recorder is unchanged.
+- Updated German and English help.
+
+This release contains macOS only. Windows remains on its latest Windows release. The larger Apple AI, Knowledge Inbox and Knowledge Spaces work is not included in this release.
+
+SHA256:
+
+- `DesktopRecorder-macOS.dmg`: `cb2a2697c09fecce2d3aa79b5471796d1a05c6a202d01b232af8f3bff92a7efa`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.80/DesktopRecorder-macOS.dmg" length="42359159" type="application/octet-stream" sparkle:edSignature="8pb1NYz7m3101FWi2RQLvSX63p4zGeu92ief8TU/RLly92f17QOclY2CCUTGCytI/Hx3kZK+rGCWl3ml5KWKCg=="/>
+        </item>
+        <item>
             <title>1.1.78</title>
             <pubDate>Wed, 30 Sep 2026 08:15:45 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.78</link>
@@ -32,21 +57,6 @@
 - **Brain history and new versions:** the brain button in the media viewer lists every send with date, time, knowledge area, version and state. After changing an image, "Send new version…" sends it as an additional "(Version 2)" document — the earlier one stays in the Brain.
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.77/DesktopRecorder-macOS.dmg" length="42403195" type="application/octet-stream" sparkle:edSignature="uSy9qGdw7F3b8KjmyoTTlu4R8LTdNvfvr9az54Q372YQFmRednHq0vUcSL2iNAdulHmD9O+FoU5q+SHk8XBgDQ=="/>
-        </item>
-        <item>
-            <title>1.1.76</title>
-            <pubDate>Tue, 29 Sep 2026 23:26:09 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.76</link>
-            <sparkle:version>1.1.76</sparkle:version>
-            <sparkle:shortVersionString>1.1.76</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.76
-
-- **Media Library to the Brain:** send screenshots and screen recordings to a knowledge area of the Corporate Digital Brain with the company login — right-click an item › "Send to Brain…" or select several and click "Send to Brain". An icon next to the date shows the processing state.
-- **Large videos in parts:** videos above 95 MB are uploaded in parts and continue after a lost connection or quitting the app.
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.76/DesktopRecorder-macOS.dmg" length="42516231" type="application/octet-stream" sparkle:edSignature="4cY0Z6LLUxK0B5TSL0xbxi6QqHGNDuqpefU4yO0xGYHir3KJ58Nu6qIf3mlxLGBm+kAnXKrKJWK+wPkkLhlaAQ=="/>
         </item>
     </channel>
 </rss>
