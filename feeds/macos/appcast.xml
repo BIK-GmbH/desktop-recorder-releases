@@ -6,6 +6,30 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.81</title>
+            <pubDate>Fri, 09 Oct 2026 16:34:14 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.81</link>
+            <sparkle:version>1.1.81</sparkle:version>
+            <sparkle:shortVersionString>1.1.81</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.81 — macOS update
+
+## macOS
+
+- Schnellzugriffe sind jetzt als offene Liste in die Seitenleiste integriert: klare Überschrift, einheitliche Ausrichtung und kein verschachteltes Ausklappmenü.
+- Das Anpassen öffnet sich in einem großzügigen Fenster mit gut lesbarer Überschrift. Fertig, Enter oder Esc schließen es; Änderungen werden sofort übernommen.
+- Favoriten und ihre Reihenfolge bleiben erhalten. Eine eigene Notizen-Überschrift trennt die Bereiche. Die Mindesthöhe beträgt jetzt 520 Punkte, damit der erste Schnellzugriff vollständig sichtbar bleibt.
+- Hilfe auf Deutsch und Englisch aktualisiert.
+
+This release contains macOS only. Windows quick-access parity follows after the Mac design review; Apple AI integration is a later stage.
+
+SHA256:
+- DesktopRecorder-macOS.dmg: faccd82ea901eda77c39f1ca2b4567135f5dd41c38d8be1606d4d979cec85877
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.81/DesktopRecorder-macOS.dmg" length="42355145" type="application/octet-stream" sparkle:edSignature="YdDLEUIPg6i+/5b0y3kpU5rGz9fy9rGYx/Kg8R7joTEMzppxmf84+DDnivQWriLdcWBc2mPPVmmu6zB0rQWgAQ=="/>
+        </item>
+        <item>
             <title>1.1.80</title>
             <pubDate>Fri, 09 Oct 2026 16:00:13 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.80</link>
@@ -43,20 +67,6 @@ SHA256:
 - **Comment when sending to the Brain:** an optional comment field in the send dialog adds context the Brain cannot see in the image or video; it becomes its own "Comment" section in the Brain and shows in the viewer's history.
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.78/DesktopRecorder-macOS.dmg" length="41747437" type="application/octet-stream" sparkle:edSignature="l2cq1psrelJ4ryZH8gS06h6oNMUn8P3qQ1N10ajyXZhHAKHswb736Q+jp3FpCpCoPednrHmL62s+6SUN+xTaAg=="/>
-        </item>
-        <item>
-            <title>1.1.77</title>
-            <pubDate>Wed, 30 Sep 2026 07:22:05 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.77</link>
-            <sparkle:version>1.1.77</sparkle:version>
-            <sparkle:shortVersionString>1.1.77</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Knowledge Recorder 1.1.77
-
-- **Brain history and new versions:** the brain button in the media viewer lists every send with date, time, knowledge area, version and state. After changing an image, "Send new version…" sends it as an additional "(Version 2)" document — the earlier one stays in the Brain.
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.77/DesktopRecorder-macOS.dmg" length="42403195" type="application/octet-stream" sparkle:edSignature="uSy9qGdw7F3b8KjmyoTTlu4R8LTdNvfvr9az54Q372YQFmRednHq0vUcSL2iNAdulHmD9O+FoU5q+SHk8XBgDQ=="/>
         </item>
     </channel>
 </rss>
