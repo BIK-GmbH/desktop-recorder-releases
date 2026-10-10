@@ -6,6 +6,34 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.86</title>
+            <pubDate>Sat, 10 Oct 2026 14:21:49 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.86</link>
+            <sparkle:version>1.1.86</sparkle:version>
+            <sparkle:shortVersionString>1.1.86</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.86 — macOS update
+
+## macOS
+
+- Ask a Knowledge Space using the existing local Apple Intelligence provider on supported Macs.
+- Fixed question bar, progress/stop controls, Markdown answers, copy feedback and real source buttons.
+- Only reviewed, extracted text in the selected Space is eligible. Keyword ranking selects up to four excerpts from at most 200 items; this is not an exhaustive or semantic review.
+- Missing or changed sources are excluded. Fresh metadata checks avoid stale URL resource caches; source freshness and citation ranges are validated before displaying answers.
+- AI citations do not guarantee factual accuracy. Verify important claims against the supplied excerpts.
+- No cloud fallback, model-generated link navigation, remote images or saved multi-turn history. German and English help updated.
+
+## Windows
+
+No Windows executable in this release. The latest Windows installer remains 1.1.82. Shared changelogs and platform-adapted help are mirrored in the Windows repository.
+
+SHA256:
+- `DesktopRecorder-macOS.dmg`: `75d273498f7580fda3310dc42b3dcecae2784233cd2811757162a40e2d2a22a4`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.86/DesktopRecorder-macOS.dmg" length="42965455" type="application/octet-stream" sparkle:edSignature="cOoiH0v0BfT+XhsFnF+zzKFn3uQ49eNceumlXLSlTWIWE6gD6ly4rf47XKZOcjN1wTBCs25C4ysOeASrwtrLAg=="/>
+        </item>
+        <item>
             <title>1.1.85</title>
             <pubDate>Fri, 09 Oct 2026 21:21:16 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.85</link>
@@ -69,35 +97,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `1ee8d1e71f90eed69dee35f9ed8f4959421a17477be26e06815a1218f55e7884`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.84/DesktopRecorder-macOS.dmg" length="42622710" type="application/octet-stream" sparkle:edSignature="uNA896Ny/1OLgeu+m5iE0Gf7TrMhPEmK7e7s4mUKeCHDdG/dJs+/xIeFb9cwmNkXNwpkpR2PK61mXADbxqcECw=="/>
-        </item>
-        <item>
-            <title>1.1.83</title>
-            <pubDate>Fri, 09 Oct 2026 20:03:09 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.83</link>
-            <sparkle:version>1.1.83</sparkle:version>
-            <sparkle:shortVersionString>1.1.83</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.83 — macOS update
-
-## macOS
-
-- Optional **Apple Intelligence (on device)** for meeting summaries, note chat and dictation cleanup, each independently selectable in Settings.
-- Requires an eligible Mac with macOS 26 or later and Apple Intelligence enabled. Availability and model-download states are explained in the relevant settings page. Existing provider choices are not changed.
-- Streams responses locally without an API key or automatic cloud fallback. Long notes and meetings are processed in bounded sections with meeting progress and cancellation; originals remain recoverable.
-- Meeting titles reuse the completed summary. Oversized or failed dictation cleanup preserves the original text. Setup packages keep Apple selections Mac-only.
-- Updated German and English help. Source-based date instructions avoid guessing calendar dates from relative deadlines.
-
-**Please note:** This optional system model is not a replacement for your existing engines. Long content can take several minutes and condensation can omit details; check names, dates and tasks against the original. Transcription and speaker separation are unchanged. This release was tested on macOS 26.5.2; macOS-27-specific roadmap features are separate work.
-
-## Windows
-
-No Windows binary in this release. [Windows 1.1.82](https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.82) remains current and available through the platform-aware in-app updater.
-
-SHA256:
-- `DesktopRecorder-macOS.dmg`: `afdc9917d37cfd4bcba02921acf80c31e93407babd08760655db95ea36938ccf`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.83/DesktopRecorder-macOS.dmg" length="42409864" type="application/octet-stream" sparkle:edSignature="LDNPkbgFXKQX6SYp+5OrqIVAHlPap4QSkMP6lkzdOUpCDihh74rtbAA+n0knCjGX0CpfL2deW/ZfUpCu4BCpAQ=="/>
         </item>
     </channel>
 </rss>
