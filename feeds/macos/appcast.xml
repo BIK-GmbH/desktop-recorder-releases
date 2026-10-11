@@ -6,6 +6,36 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.88</title>
+            <pubDate>Sun, 11 Oct 2026 16:33:08 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.88</link>
+            <sparkle:version>1.1.88</sparkle:version>
+            <sparkle:shortVersionString>1.1.88</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.88 — macOS update
+
+## macOS
+
+- Notizentitel, Datumsangaben und Leerzustände sind jetzt bündig mit der Überschrift **Notizen** in der Seitenleiste.
+- Lange Titel bleiben einzeilig mit Auslassung; Notizauswahl und Kontextmenüs bleiben erhalten.
+- Der Player bleibt unverändert. Die neue Seitenleiste ist automatisch aktiv, ohne zusätzlichen Schalter.
+- Hilfe auf Deutsch und Englisch ergänzt.
+
+Note titles, dates and empty states now align with the Notes heading. Long titles truncate on one line, native selection remains available, and the recorder is unchanged.
+
+Verified on Mac Studio in Light/Dark at three window heights, with populated notes, native navigation and selection. 305 tests passed, 7 intentionally skipped, zero failures. Developer ID signed, Apple notarized and stapled. Requires macOS 15 or later on Apple Silicon.
+
+## Windows
+
+No Windows binary in this release; the latest Windows installer remains 1.1.82.
+
+SHA256:
+- `DesktopRecorder-macOS.dmg`: `ca4e84658b08ff1167c741c251759a5b78a1308dffb1b43b2300b7f7fcf2a329`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.88/DesktopRecorder-macOS.dmg" length="43773167" type="application/octet-stream" sparkle:edSignature="K2n1thWQnPVO4VkCrKyTDzuVvn11q741sST2XbhZVYZNXn+PZcF5Lw/dzcvOE62upveDEGMlK53FuJh2CD3IBA=="/>
+        </item>
+        <item>
             <title>1.1.87</title>
             <pubDate>Sun, 11 Oct 2026 16:15:27 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.87</link>
@@ -56,36 +86,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `75d273498f7580fda3310dc42b3dcecae2784233cd2811757162a40e2d2a22a4`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.86/DesktopRecorder-macOS.dmg" length="42965455" type="application/octet-stream" sparkle:edSignature="cOoiH0v0BfT+XhsFnF+zzKFn3uQ49eNceumlXLSlTWIWE6gD6ly4rf47XKZOcjN1wTBCs25C4ysOeASrwtrLAg=="/>
-        </item>
-        <item>
-            <title>1.1.85</title>
-            <pubDate>Fri, 09 Oct 2026 21:21:16 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.85</link>
-            <sparkle:version>1.1.85</sparkle:version>
-            <sparkle:shortVersionString>1.1.85</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.85 — macOS update
-
-## macOS
-
-- Knowledge Spaces: organize Inbox entries into local groups with names, descriptions and colors.
-- Assign one primary Space per item and search within it, including previously extracted text.
-- Archive or restore groups. Deleting a Space preserves every Inbox entry and original file.
-- New imports join the selected active Space; existing references keep their assignment.
-- Existing Inbox data migrates with a preserved v1 backup. The new index needs version 1.1.85 or later.
-- German and English help updated. No automatic uploads, Space chat or Brain linking in this first stage.
-
-## Windows
-
-No Windows executable in this release. Latest Windows installer remains 1.1.82; platform-aware updates skip this macOS-only release. Platform-adapted help and shared changelogs are mirrored in the Windows source repository.
-
-SHA256:
-
-- `DesktopRecorder-macOS.dmg`: `91e6fe82a853ec0ed553c9f481081b05eb4c121658134e038997b9631f52da1d`
-
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.85/DesktopRecorder-macOS.dmg" length="41998988" type="application/octet-stream" sparkle:edSignature="lMLgsejdwqA5XzGJucL60+Yp/sf+YXhR0JauzjMrX5B1KbzCz5M7vKH08hdf+wG+/tqLUuHuyGXAOv42ZN8DBg=="/>
         </item>
     </channel>
 </rss>
