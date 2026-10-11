@@ -6,6 +6,33 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.90</title>
+            <pubDate>Sun, 11 Oct 2026 17:20:28 +0200</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.90</link>
+            <sparkle:version>1.1.90</sparkle:version>
+            <sparkle:shortVersionString>1.1.90</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.90
+
+## macOS
+
+- Entfernt den breiten blauen Rahmen am Seitenleisten-Trenner. Der kleine Griff ist neutral/hell; Ziehen, Tastatursteuerung und Zurücksetzen bleiben erhalten.
+- Flüssigerer Wechsel zwischen Meeting-Notizen: Dateizugriff im Hintergrund, abschnittsweise Textdarstellung und wiederverwendete Hintergrundgrafiken.
+- Laufzeiten werden asynchron geladen; die Aufnahme wird erst bei Abspielen für die Wiedergabe geöffnet. Schnelle Notizwechsel übernehmen keine veralteten Ladeergebnisse.
+- Player oben, Suche und feste Fußnavigation bleiben unverändert. Hilfe auf Deutsch und Englisch aktualisiert.
+
+## Windows
+
+Keine neuen Windows-Binärdateien in diesem Release. Die aktuelle Windows-Version bleibt 1.1.82.
+
+SHA256:
+
+- `DesktopRecorder-macOS.dmg`: `93405a90c03769f28a1a3ca05a6fb1c3e6f62103c5d18160f09284ccd0a84a1d`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.90/DesktopRecorder-macOS.dmg" length="42976821" type="application/octet-stream" sparkle:edSignature="gej5IQqUtanDJLHdcIMtvVdSSWyhzTRLmggYjZFEecoJarP1ppphk/vAhziyBY3pLGAnQ2adGmPwOykIF7dVDA=="/>
+        </item>
+        <item>
             <title>1.1.89</title>
             <pubDate>Sun, 11 Oct 2026 16:55:16 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.89</link>
@@ -65,30 +92,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `ca4e84658b08ff1167c741c251759a5b78a1308dffb1b43b2300b7f7fcf2a329`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.88/DesktopRecorder-macOS.dmg" length="43773167" type="application/octet-stream" sparkle:edSignature="K2n1thWQnPVO4VkCrKyTDzuVvn11q741sST2XbhZVYZNXn+PZcF5Lw/dzcvOE62upveDEGMlK53FuJh2CD3IBA=="/>
-        </item>
-        <item>
-            <title>1.1.87</title>
-            <pubDate>Sun, 11 Oct 2026 16:15:27 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.87</link>
-            <sparkle:version>1.1.87</sparkle:version>
-            <sparkle:shortVersionString>1.1.87</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.87 — macOS update
-
-## macOS
-- Reorganized the menu below the recorder: Knowledge Inbox, Media Library and Open action items form one group, followed by Quick access and Notes.
-- Settings and Help remain pinned at the bottom, with consistent row heights, centered icons and quiet hover/selection feedback.
-- Recorder size, position, controls and search remain unchanged. The middle area scrolls at smaller window heights.
-- German and English help updated.
-
-## Windows
-No Windows binary in this release. The latest Windows update remains 1.1.82; Windows auto-update continues to select its signed Setup asset.
-
-SHA256:
-- `DesktopRecorder-macOS.dmg`: `aa72a424b87ff73d7fe8e7f4d58d5573438b293329d08d98b499e1bbdcd4d5d7`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.87/DesktopRecorder-macOS.dmg" length="42928254" type="application/octet-stream" sparkle:edSignature="ROzcpH4nJ/kxCCopZd1hv3L8hb/8e/ttrNWLaCE/RbhWtF7hvO1m2q2MDhPCZvWz6r8D9U+Dt81ThAXjrUr4Cg=="/>
         </item>
     </channel>
 </rss>
