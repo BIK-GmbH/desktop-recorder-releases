@@ -6,6 +6,35 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.93</title>
+            <pubDate>Tue, 27 Oct 2026 14:16:09 +0100</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.93</link>
+            <sparkle:version>1.1.93</sparkle:version>
+            <sparkle:shortVersionString>1.1.93</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## macOS
+
+- Independent app language and macOS regional number/date formats, with an example in General settings.
+- Localized model download/load failures, persistent error feedback and German/English permission purpose strings.
+- Notes, model choices and transcription/summary language preferences are preserved. System and Sparkle dialogs remain system-localized.
+
+### Deutsch
+
+- App-Sprache und regionale Zahlen-/Datumsformate sind getrennt; Allgemein zeigt ein Formatbeispiel.
+- Übersetzte Modellfehler bleiben sichtbar; Berechtigungstexte sind auf Deutsch und Englisch enthalten.
+- Notizen, Modellwahl und Transkriptions-/Zusammenfassungssprache bleiben erhalten. System- und Sparkle-Dialoge behalten die Systemsprache.
+
+## Windows
+
+No Windows binaries in this release. Windows remains on 1.1.91.
+
+SHA256:
+- `DesktopRecorder-macOS.dmg`: `84e25a2f25db7e80035659edcd656676216e96c297e1b63ae06ce04545131df9`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.93/DesktopRecorder-macOS.dmg" length="42303594" type="application/octet-stream" sparkle:edSignature="5Vg/FSHLlROtU5caQB6Hly5urNnq3tr+RW+GMNU1ncDtwELXZj96JgSCyFh1vR49uP+tZelJ7agyeSdXd25FAA=="/>
+        </item>
+        <item>
             <title>1.1.92</title>
             <pubDate>Tue, 27 Oct 2026 13:47:34 +0100</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.92</link>
@@ -57,37 +86,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `93405a90c03769f28a1a3ca05a6fb1c3e6f62103c5d18160f09284ccd0a84a1d`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.90/DesktopRecorder-macOS.dmg" length="42976821" type="application/octet-stream" sparkle:edSignature="gej5IQqUtanDJLHdcIMtvVdSSWyhzTRLmggYjZFEecoJarP1ppphk/vAhziyBY3pLGAnQ2adGmPwOykIF7dVDA=="/>
-        </item>
-        <item>
-            <title>1.1.89</title>
-            <pubDate>Sun, 11 Oct 2026 16:55:16 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.89</link>
-            <sparkle:version>1.1.89</sparkle:version>
-            <sparkle:shortVersionString>1.1.89</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.89 — macOS update
-
-## macOS
-
-- Navigation und Schnellzugriffe sowie Notizen haben jetzt getrennte Scrollbereiche.
-- Ziehe die horizontale Trennlinie nach oben oder unten, um die Aufteilung anzupassen. Die Position wird gespeichert; kleinere Fenster begrenzen sie nur vorübergehend.
-- Die Überschrift **Notizen** bleibt beim Scrollen sichtbar. Player und Suche bleiben unverändert; Einstellungen und Hilfe sind weiterhin unten fixiert.
-- Doppelklick oder Rechtsklick → **Aufteilung zurücksetzen** stellt die Standardgröße wieder her. Pfeil hoch/runter bei Tastaturfokus und Bedienungshilfen werden unterstützt.
-- Hilfe auf Deutsch und Englisch aktualisiert.
-
-Navigation/Quick access and Notes now scroll independently with a saved, draggable divider. The Notes heading stays visible; the recorder, search and pinned Settings/Help footer remain unchanged. Double-click resets the split; keyboard and accessibility adjustment are supported.
-
-Verified on Mac Studio in Light/Dark at three window heights, including populated notes, native drag, independent scrolling, reopening, keyboard adjustment and reset. 310 tests passed, 7 intentionally skipped, zero failures. Developer ID signed, Apple notarized and stapled. Requires macOS 15 or later on Apple Silicon.
-
-## Windows
-
-No Windows binary in this release; the latest Windows installer remains 1.1.82.
-
-SHA256:
-- `DesktopRecorder-macOS.dmg`: `d2805c578d37a94584d8f692fc262cc30a9a9215f6ecf46bd2ed1d3a28c9e3bc`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.89/DesktopRecorder-macOS.dmg" length="42940451" type="application/octet-stream" sparkle:edSignature="2q/dmpnnbF6KoQ/ZBnfpKODN5AhVmi7tmuB+f09nY5xS9fNUrcVj6YkTNeSOVO0SbFrXDz4nEQmJcIPiNcN0Aw=="/>
         </item>
     </channel>
 </rss>
