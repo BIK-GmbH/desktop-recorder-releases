@@ -6,6 +6,32 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.92</title>
+            <pubDate>Tue, 27 Oct 2026 13:47:34 +0100</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.92</link>
+            <sparkle:version>1.1.92</sparkle:version>
+            <sparkle:shortVersionString>1.1.92</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.92 — macOS update
+
+## macOS
+
+- Cancel local GGUF downloads and file verification directly in the existing model cards.
+- Fixed publisher revisions, exact size and SHA-256 verification before atomic installation.
+- Existing models survive interrupted or failed replacements. Older files can be verified locally without being automatically downloaded again.
+- Shared progress across Settings pages, safer setup imports and deferred app-update installation during downloads.
+- German/English status messages and help updated. No model selection or provider changes.
+
+Windows remains on 1.1.91. This release contains the macOS DMG only.
+
+Verified on Mac Studio: 333 passing automated tests, 8 opt-in/generator skips, 0 failures;
+13 passing download tests including a full 2.5 GB publisher download; 32 Light/Dark DE/EN
+window checks and repeated download/cancel UI interactions.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.92/DesktopRecorder-macOS.dmg" length="42308060" type="application/octet-stream" sparkle:edSignature="k6zTktx8nhgztAz9C13ayoROMl3jCkqouGjB42gSdrZGIvYeLn29ngNpvokORc6H0N7Q1fGwKOtlisJqh3dbCg=="/>
+        </item>
+        <item>
             <title>1.1.90</title>
             <pubDate>Sun, 11 Oct 2026 17:20:28 +0200</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.90</link>
@@ -62,36 +88,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `d2805c578d37a94584d8f692fc262cc30a9a9215f6ecf46bd2ed1d3a28c9e3bc`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.89/DesktopRecorder-macOS.dmg" length="42940451" type="application/octet-stream" sparkle:edSignature="2q/dmpnnbF6KoQ/ZBnfpKODN5AhVmi7tmuB+f09nY5xS9fNUrcVj6YkTNeSOVO0SbFrXDz4nEQmJcIPiNcN0Aw=="/>
-        </item>
-        <item>
-            <title>1.1.88</title>
-            <pubDate>Sun, 11 Oct 2026 16:33:08 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.88</link>
-            <sparkle:version>1.1.88</sparkle:version>
-            <sparkle:shortVersionString>1.1.88</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.88 — macOS update
-
-## macOS
-
-- Notizentitel, Datumsangaben und Leerzustände sind jetzt bündig mit der Überschrift **Notizen** in der Seitenleiste.
-- Lange Titel bleiben einzeilig mit Auslassung; Notizauswahl und Kontextmenüs bleiben erhalten.
-- Der Player bleibt unverändert. Die neue Seitenleiste ist automatisch aktiv, ohne zusätzlichen Schalter.
-- Hilfe auf Deutsch und Englisch ergänzt.
-
-Note titles, dates and empty states now align with the Notes heading. Long titles truncate on one line, native selection remains available, and the recorder is unchanged.
-
-Verified on Mac Studio in Light/Dark at three window heights, with populated notes, native navigation and selection. 305 tests passed, 7 intentionally skipped, zero failures. Developer ID signed, Apple notarized and stapled. Requires macOS 15 or later on Apple Silicon.
-
-## Windows
-
-No Windows binary in this release; the latest Windows installer remains 1.1.82.
-
-SHA256:
-- `DesktopRecorder-macOS.dmg`: `ca4e84658b08ff1167c741c251759a5b78a1308dffb1b43b2300b7f7fcf2a329`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.88/DesktopRecorder-macOS.dmg" length="43773167" type="application/octet-stream" sparkle:edSignature="K2n1thWQnPVO4VkCrKyTDzuVvn11q741sST2XbhZVYZNXn+PZcF5Lw/dzcvOE62upveDEGMlK53FuJh2CD3IBA=="/>
         </item>
     </channel>
 </rss>
