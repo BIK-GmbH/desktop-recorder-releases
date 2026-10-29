@@ -6,6 +6,41 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.94</title>
+            <pubDate>Thu, 29 Oct 2026 14:51:45 +0100</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.94</link>
+            <sparkle:version>1.1.94</sparkle:version>
+            <sparkle:shortVersionString>1.1.94</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.94 — macOS update
+
+## Deutsch
+
+- **Dock-Icon ohne breite weiße Umrandung:** Die dunkelblaue Grundplatte bleibt in heller und dunkler Darstellung erhalten. Motivabstände und zusätzliche Ebenenbeleuchtung wurden korrigiert; Signal-Core-Motiv, Glow und rote Aufnahmeperle bleiben unverändert.
+- Die Icon-Paketierung bricht bei Compilerfehlern ab, statt unbemerkt eine andere Ersatzdarstellung auszuliefern.
+- Deutsche und englische Hilfe erklären die Korrektur und den Umgang mit alten Dock-Verknüpfungen. Notizen, Modelle und Einstellungen bleiben erhalten.
+
+## English
+
+- **Dock icon without the broad white surround:** The navy base remains consistent in light and dark appearances. Corrected padding and duplicate layer lighting preserve the original Signal Core artwork, glow and red recording pearl.
+- Icon compilation errors now fail packaging instead of silently shipping a different fallback appearance.
+- German/English help covers the fix and stale Dock shortcuts. Notes, models and settings are unchanged.
+
+## Scope and verification
+
+macOS only, Apple Silicon, macOS 15+. Windows remains on 1.1.91; its binary and icon are unchanged.
+Mac Studio / macOS 26.5.2 / Xcode 26.6: 345 tests passed, 8 optional tests skipped, no failures.
+Original configuration reproduced the defect and failed the regression checks. Corrected compiler
+and Launch Services renderings plus actual Dock tiles were inspected in Light/Dark. The separate
+user laptop and macOS 27 were not tested in this run.
+
+SHA256:
+- `DesktopRecorder-macOS.dmg`: `f9dd40ef47ba2596eff63d10a1d79d07c9875545dc8b942e08546bf218814395`
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.94/DesktopRecorder-macOS.dmg" length="43409080" type="application/octet-stream" sparkle:edSignature="K7gvO5d1Ae4WZA9I4CrlYTDcTUKiJgIECKOqxI2B4TG1bVvw27ApyojBgQVDQb0MYJYTmod6WI9DTnsAENsABg=="/>
+        </item>
+        <item>
             <title>1.1.93</title>
             <pubDate>Tue, 27 Oct 2026 14:16:09 +0100</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.93</link>
@@ -59,33 +94,6 @@ Verified on Mac Studio: 333 passing automated tests, 8 opt-in/generator skips, 0
 window checks and repeated download/cancel UI interactions.
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.92/DesktopRecorder-macOS.dmg" length="42308060" type="application/octet-stream" sparkle:edSignature="k6zTktx8nhgztAz9C13ayoROMl3jCkqouGjB42gSdrZGIvYeLn29ngNpvokORc6H0N7Q1fGwKOtlisJqh3dbCg=="/>
-        </item>
-        <item>
-            <title>1.1.90</title>
-            <pubDate>Sun, 11 Oct 2026 17:20:28 +0200</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.90</link>
-            <sparkle:version>1.1.90</sparkle:version>
-            <sparkle:shortVersionString>1.1.90</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.90
-
-## macOS
-
-- Entfernt den breiten blauen Rahmen am Seitenleisten-Trenner. Der kleine Griff ist neutral/hell; Ziehen, Tastatursteuerung und Zurücksetzen bleiben erhalten.
-- Flüssigerer Wechsel zwischen Meeting-Notizen: Dateizugriff im Hintergrund, abschnittsweise Textdarstellung und wiederverwendete Hintergrundgrafiken.
-- Laufzeiten werden asynchron geladen; die Aufnahme wird erst bei Abspielen für die Wiedergabe geöffnet. Schnelle Notizwechsel übernehmen keine veralteten Ladeergebnisse.
-- Player oben, Suche und feste Fußnavigation bleiben unverändert. Hilfe auf Deutsch und Englisch aktualisiert.
-
-## Windows
-
-Keine neuen Windows-Binärdateien in diesem Release. Die aktuelle Windows-Version bleibt 1.1.82.
-
-SHA256:
-
-- `DesktopRecorder-macOS.dmg`: `93405a90c03769f28a1a3ca05a6fb1c3e6f62103c5d18160f09284ccd0a84a1d`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.90/DesktopRecorder-macOS.dmg" length="42976821" type="application/octet-stream" sparkle:edSignature="gej5IQqUtanDJLHdcIMtvVdSSWyhzTRLmggYjZFEecoJarP1ppphk/vAhziyBY3pLGAnQ2adGmPwOykIF7dVDA=="/>
         </item>
     </channel>
 </rss>
