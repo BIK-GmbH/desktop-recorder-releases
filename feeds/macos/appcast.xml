@@ -6,6 +6,24 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.96</title>
+            <pubDate>Sun, 08 Nov 2026 23:05:05 +0100</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.96</link>
+            <sparkle:version>1.1.96</sparkle:version>
+            <sparkle:shortVersionString>1.1.96</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.96 · macOS
+
+**Deutsch:** Für freigeschaltete Lab-Konten: In der Mediathek bei einem Video „Im Lab bereitstellen …“ wählen und den Mac im Lab bestätigen. Der Upload ist privat und lässt sich nach einer Unterbrechung fortsetzen. Freigabelinks können erstellt und widerrufen werden. Das Löschen der Lab-Kopie lässt die lokale Aufnahme unverändert.
+
+**English:** Invited Lab users can choose “Upload to Lab…” on a video in the media library and approve their Mac in the Lab. Uploads are private and resumable. Create or revoke a viewing link, or delete the Lab copy without removing the local recording.
+
+Dieses Release enthält nur die macOS-App. No Windows update is included.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.96/DesktopRecorder-macOS.dmg" length="43842385" type="application/octet-stream" sparkle:edSignature="v8RUXSxbqjHU2a+ZDxWpfXH6l6rDCrSIeyguPEbvUMwOBAgQ0P+IjCH77z73ncKOWK2lxIYPEpRTUl+9u4B3Bw=="/>
+        </item>
+        <item>
             <title>1.1.94</title>
             <pubDate>Thu, 29 Oct 2026 14:51:45 +0100</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.94</link>
@@ -68,32 +86,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `84e25a2f25db7e80035659edcd656676216e96c297e1b63ae06ce04545131df9`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.93/DesktopRecorder-macOS.dmg" length="42303594" type="application/octet-stream" sparkle:edSignature="5Vg/FSHLlROtU5caQB6Hly5urNnq3tr+RW+GMNU1ncDtwELXZj96JgSCyFh1vR49uP+tZelJ7agyeSdXd25FAA=="/>
-        </item>
-        <item>
-            <title>1.1.92</title>
-            <pubDate>Tue, 27 Oct 2026 13:47:34 +0100</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.92</link>
-            <sparkle:version>1.1.92</sparkle:version>
-            <sparkle:shortVersionString>1.1.92</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.92 — macOS update
-
-## macOS
-
-- Cancel local GGUF downloads and file verification directly in the existing model cards.
-- Fixed publisher revisions, exact size and SHA-256 verification before atomic installation.
-- Existing models survive interrupted or failed replacements. Older files can be verified locally without being automatically downloaded again.
-- Shared progress across Settings pages, safer setup imports and deferred app-update installation during downloads.
-- German/English status messages and help updated. No model selection or provider changes.
-
-Windows remains on 1.1.91. This release contains the macOS DMG only.
-
-Verified on Mac Studio: 333 passing automated tests, 8 opt-in/generator skips, 0 failures;
-13 passing download tests including a full 2.5 GB publisher download; 32 Light/Dark DE/EN
-window checks and repeated download/cancel UI interactions.
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.92/DesktopRecorder-macOS.dmg" length="42308060" type="application/octet-stream" sparkle:edSignature="k6zTktx8nhgztAz9C13ayoROMl3jCkqouGjB42gSdrZGIvYeLn29ngNpvokORc6H0N7Q1fGwKOtlisJqh3dbCg=="/>
         </item>
     </channel>
 </rss>
