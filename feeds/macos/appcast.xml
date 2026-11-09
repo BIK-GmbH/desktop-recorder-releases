@@ -6,6 +6,24 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.97</title>
+            <pubDate>Mon, 09 Nov 2026 10:14:46 +0100</pubDate>
+            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.97</link>
+            <sparkle:version>1.1.97</sparkle:version>
+            <sparkle:shortVersionString>1.1.97</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.97 · macOS
+
+**Deutsch:** Öffne bei einem hochgeladenen Video direkt aus der Mediathek oder der Detailansicht **Freigabe verwalten**, um seine Einstellungen im Lab zu ändern. **Freigabelink öffnen** zeigt die Empfängeransicht eines aktiven Links. Beides funktioniert nach einem Neustart, ohne das Video erneut hochzuladen. Das Öffnen erstellt keinen Freigabelink.
+
+**English:** Choose **Manage sharing** on an uploaded video in the library or video detail view to change its Lab sharing settings. **Open shared view** previews what recipients of an active link can see. Both actions still work after restarting the app, without uploading the video again. Neither action creates a sharing link.
+
+Dieses Update gilt für macOS und den geschlossenen Lab-Piloten. This macOS update supports the closed Lab pilot.
+]]></description>
+            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.97/DesktopRecorder-macOS.dmg" length="43687971" type="application/octet-stream" sparkle:edSignature="T7aPX4CmdTQEhF/TN1plGm9kdga6/5lHWzUY7eK4wzbXcQUK9+ER6nu5kGSQPf7oEGZATfDHNYTbqi62CP+oBg=="/>
+        </item>
+        <item>
             <title>1.1.96</title>
             <pubDate>Sun, 08 Nov 2026 23:05:05 +0100</pubDate>
             <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.96</link>
@@ -57,35 +75,6 @@ SHA256:
 - `DesktopRecorder-macOS.dmg`: `f9dd40ef47ba2596eff63d10a1d79d07c9875545dc8b942e08546bf218814395`
 ]]></description>
             <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.94/DesktopRecorder-macOS.dmg" length="43409080" type="application/octet-stream" sparkle:edSignature="K7gvO5d1Ae4WZA9I4CrlYTDcTUKiJgIECKOqxI2B4TG1bVvw27ApyojBgQVDQb0MYJYTmod6WI9DTnsAENsABg=="/>
-        </item>
-        <item>
-            <title>1.1.93</title>
-            <pubDate>Tue, 27 Oct 2026 14:16:09 +0100</pubDate>
-            <link>https://github.com/BIK-GmbH/desktop-recorder-releases/releases/tag/v1.1.93</link>
-            <sparkle:version>1.1.93</sparkle:version>
-            <sparkle:shortVersionString>1.1.93</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## macOS
-
-- Independent app language and macOS regional number/date formats, with an example in General settings.
-- Localized model download/load failures, persistent error feedback and German/English permission purpose strings.
-- Notes, model choices and transcription/summary language preferences are preserved. System and Sparkle dialogs remain system-localized.
-
-### Deutsch
-
-- App-Sprache und regionale Zahlen-/Datumsformate sind getrennt; Allgemein zeigt ein Formatbeispiel.
-- Übersetzte Modellfehler bleiben sichtbar; Berechtigungstexte sind auf Deutsch und Englisch enthalten.
-- Notizen, Modellwahl und Transkriptions-/Zusammenfassungssprache bleiben erhalten. System- und Sparkle-Dialoge behalten die Systemsprache.
-
-## Windows
-
-No Windows binaries in this release. Windows remains on 1.1.91.
-
-SHA256:
-- `DesktopRecorder-macOS.dmg`: `84e25a2f25db7e80035659edcd656676216e96c297e1b63ae06ce04545131df9`
-]]></description>
-            <enclosure url="https://github.com/BIK-GmbH/desktop-recorder-releases/releases/download/v1.1.93/DesktopRecorder-macOS.dmg" length="42303594" type="application/octet-stream" sparkle:edSignature="5Vg/FSHLlROtU5caQB6Hly5urNnq3tr+RW+GMNU1ncDtwELXZj96JgSCyFh1vR49uP+tZelJ7agyeSdXd25FAA=="/>
         </item>
     </channel>
 </rss>
